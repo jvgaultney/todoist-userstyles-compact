@@ -1,0 +1,103 @@
+body {font-family: "SF UI Text","SF Compact Text","Helvetica",Arial,sans-serif !important;letter-spacing: inherit;} 
+
+/* Ideas from Wider Todoist theme */
+
+#left_menu {
+    width: 266px;
+}
+
+#top_bar_inner {
+    width: 80%;
+    min-width: 922px;
+}
+
+#content_wrapper {
+    width: 80%;
+    min-width: 922px;
+}
+
+#content {
+    width: calc(100% - 266px);
+    min-width: 656px;
+    margin-left: 266px;
+}
+
+#list_holder {
+    width: calc(266px - 1px);
+}
+
+#quick_find {
+    margin-left: calc(266px + 8px);
+}
+
+/* less height for individual tasks */
+
+.task_item_details {
+    padding: 0px 0px !important;
+}
+
+.task_item_actions {
+    padding: 0px 0px !important;
+}
+
+.project_item__name {
+    padding: 3px 2px 0px 0px;
+}
+
+#agenda_view .section_day, #agenda_view .section_overdue {
+    margin-bottom: 0px !important;
+}
+
+ul.items.day_list.ul_today.is_filtered {
+    margin-bottom: 10px !important;
+}
+
+ul.section_list>li {
+	padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.task_item_content_text {
+    display: inline !important;
+    flex-wrap: nowrap !important;
+}
+
+.task_item_details_bottom {
+    display: inline !important;
+    margin-left: 15px !important;
+    flex-wrap: nowrap !important;
+}
+
+.view_header {
+    margin-bottom: 0px !important;
+    border-top: 10px #555555 !important;
+}
+
+h2.section_header, h2.section_header a {
+    padding-bottom: 5px !important;
+    font-family: "SF UI Text","SF Compact Text","Helvetica",Arial,sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 100;
+    color: gray;
+    text-transform: uppercase;
+}
+
+
+.subsection_header__date {
+    font-size: 15px !important; 
+}
+
+div.project_editor_instance {
+    margin-bottom: 0px !important;
+}
+
+/* less padding between projects in left menu */
+
+.generic_left_list.items li { 
+    padding-top: 0px !important;
+}
+
+.generic_left_list li table td { 
+    padding: 3px 0px !important;
+	font-size: 12pt !important;
+}
