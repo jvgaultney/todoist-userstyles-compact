@@ -101,3 +101,6 @@ div.project_editor_instance {
     padding: 3px 0px !important;
 	font-size: 12pt !important;
 }
+
+/* uncomment the following to remove gray lines between each task */
+/* .task_item_details { border-bottom: 0px !important; } */
