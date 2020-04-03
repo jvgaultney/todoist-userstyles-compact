@@ -2,7 +2,7 @@ body {font-family: "SF UI Text","SF Compact Text","Helvetica",Arial,sans-serif !
 
 /* Ideas from Wider Todoist theme */
 
-#left_menu {
+/*#left_menu {
     width: 266px;
 }
 
@@ -28,9 +28,14 @@ body {font-family: "SF UI Text","SF Compact Text","Helvetica",Arial,sans-serif !
 
 #quick_find {
     margin-left: calc(266px + 8px);
-}
+}*/
 
 /* less height for individual tasks */
+
+.sel_item_content {
+    padding-top: 2px !important;
+    padding-bottom: 0px !important;
+}
 
 .task_item_details {
     padding: 0px 0px !important;
@@ -64,8 +69,20 @@ ul.section_list>li {
 
 .task_item_details_bottom {
     display: inline !important;
-    margin-left: 15px !important;
+    margin-left: 25px !important;
     flex-wrap: nowrap !important;
+}
+
+.date svg {
+    margin-bottom: -5px !important;
+}
+
+.project_item__color {
+    margin-top: 5px !important;
+}
+
+.project_item__color--shared {
+    margin-top: 2px !important;
 }
 
 .view_header {
