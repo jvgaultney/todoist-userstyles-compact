@@ -1,47 +1,33 @@
 body {font-family: "SF UI Text","SF Compact Text","Helvetica",Arial,sans-serif !important;letter-spacing: inherit;} 
 
-/* Ideas from Wider Todoist theme */
-
-/*#left_menu {
-    width: 266px;
-}
-
-#top_bar_inner {
-    width: 80%;
-    min-width: 922px;
-}
-
-#content_wrapper {
-    width: 80%;
-    min-width: 922px;
-}
-
-#content {
-    width: calc(100% - 266px);
-    min-width: 656px;
-    margin-left: 266px;
-}
-
-#list_holder {
-    width: calc(266px - 1px);
-}
-
-#quick_find {
-    margin-left: calc(266px + 8px);
-}*/
-
 /* less height for individual tasks */
 
-.sel_item_content {
-    padding-top: 2px !important;
-    padding-bottom: 0px !important;
+.item_checkbox {
+    margin-top: 3px !important;
 }
 
-.task_item_details {
+.task_list_item__content {
     padding: 0px 0px !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
 }
 
-.task_item_actions {
+.task_content {
+    line-height: 25px !important;
+}
+
+.task_list_item__info_tags {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+}
+
+.date {
+    margin-right: 20px !important;
+}
+
+.task_list_item__actions {
+    margin-top: 0px !important;
+    margin-right: -30px !important;
     padding: 0px 0px !important;
 }
 
@@ -62,43 +48,24 @@ ul.section_list>li {
     margin-bottom: 0px !important;
 }
 
-.task_item_content_text {
-    display: inline !important;
-    flex-wrap: nowrap !important;
-}
-
-.task_item_details_bottom {
-    display: inline !important;
-    margin-left: 25px !important;
-    flex-wrap: nowrap !important;
-}
-
-.date svg {
-    margin-bottom: -5px !important;
-}
-
-.project_item__color {
-    margin-top: 5px !important;
-}
-
-.project_item__color--shared {
-    margin-top: 2px !important;
-}
-
 .view_header {
     margin-bottom: 0px !important;
     border-top: 10px #555555 !important;
 }
 
-h2.section_header, h2.section_header a {
-    padding-bottom: 5px !important;
+.section {
+    margin-bottom: 10px !important;
+}    
+
+.section h2, .section h2 a {
+    padding-top: 10px !important;
+    padding-bottom: 2px !important;
     font-family: "SF UI Text","SF Compact Text","Helvetica",Arial,sans-serif !important;
     font-size: 15px !important;
     font-weight: 100;
     color: gray;
     text-transform: uppercase;
 }
-
 
 .subsection_header__date {
     font-size: 15px !important; 
@@ -120,4 +87,4 @@ div.project_editor_instance {
 }
 
 /* uncomment the following to remove gray lines between each task */
-/* .task_item_details { border-bottom: 0px !important; } */
+/* .task_list_item { border-bottom: 0px !important; } */
