@@ -10,6 +10,8 @@ body {font-family: "SF UI Text","SF Compact Text","Helvetica",Arial,sans-serif !
     padding: 0px 0px !important;
     display: flex !important;
     flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+    margin-right: 0px !important;
 }
 
 .task_content {
@@ -23,12 +25,12 @@ body {font-family: "SF UI Text","SF Compact Text","Helvetica",Arial,sans-serif !
 }
 
 .date {
-    margin-right: 20px !important;
+    margin-right: 0px !important;
 }
 
 .task_list_item__actions {
     margin-top: 0px !important;
-    margin-right: 200px !important;
+    margin-right: 150px !important;
     padding: 0px 0px !important;
 }
 
@@ -87,11 +89,12 @@ div.project_editor_instance {
 	font-size: 12pt !important;
 }
 
-/* uncomment the following to remove gray lines between each task */
-/* .task_list_item { border-bottom: 0px !important; } */
-.task_list_item {
+/* uncomment the following to add gray lines between each task */
+/* .task_list_item {
     border-bottom: 1px solid #333333 !important;
-}
+} */
+.task_list_item { border-bottom: 0px !important; }
+
 
 /* uncomment the following if you use Clockify
 .clockify-button-inactive {
