@@ -2,8 +2,8 @@ body {font-family: "SF UI Text","SF Compact Text","Helvetica",Arial,sans-serif !
 
 /* less height for individual tasks */
 
-.item_checkbox {
-    margin-top: 3px !important;
+.task_list_item .task_checkbox {
+    margin-top: 0px !important;
 }
 
 .task_list_item__content {
