@@ -15,7 +15,8 @@ body {font-family: "SF UI Text","SF Compact Text","Helvetica",Arial,sans-serif !
 }
 
 .task_content {
-    line-height: 25px !important;
+    line-height: 18px !important;
+    padding-top: 2px !important;
 }
 
 .task_list_item__info_tags {
@@ -43,7 +44,7 @@ body {font-family: "SF UI Text","SF Compact Text","Helvetica",Arial,sans-serif !
 }
 
 ul.items.day_list.ul_today.is_filtered {
-    margin-bottom: 10px !important;
+    margin-bottom: 4px !important;
 }
 
 ul.section_list>li {
@@ -57,7 +58,7 @@ ul.section_list>li {
 }
 
 .section {
-    margin-bottom: 10px !important;
+    margin-bottom: 4px !important;
 }    
 
 .section h2, .section h2 a {
