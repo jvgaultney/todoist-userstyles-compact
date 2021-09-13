@@ -90,6 +90,35 @@ div.project_editor_instance {
 	font-size: 12pt !important;
 }
 
+.generic_left_list td.td_color .counter_color {
+    height: 22px !important;
+    line-height: 20px !important;
+}
+
+.generic_left_list td.name {
+    height: 22px !important;
+    line-height: 20px !important;
+}
+    
+.generic_left_list td.counter {
+    height: 22px !important;
+    line-height: 20px !important;
+}
+
+.generic_left_list td.menu {
+    height: 22px !important;
+    line-height: 20px !important;
+}
+    
+.generic_left_list td.menu div.icon {
+    height: 22px !important;
+    line-height: 20px !important;
+}
+    
+.invisible_space {
+    margin-top: 3px !important;
+}
+
 /* uncomment the following to add gray lines between each task */
 /* .task_list_item {
     border-bottom: 1px solid #333333 !important;
