@@ -80,43 +80,10 @@ div.project_editor_instance {
 }
 
 /* less padding between projects in left menu */
-
-.generic_left_list.items li { 
+    
+#projects_list div {
     padding-top: 0px !important;
-}
-
-.generic_left_list li table td { 
-    padding: 3px 20px 3px 0px !important;
-	font-size: 12pt !important;
-}
-
-.generic_left_list td.td_color .counter_color {
-    height: 22px !important;
-    line-height: 20px !important;
-}
-
-.generic_left_list td.name {
-    height: 22px !important;
-    line-height: 20px !important;
-}
-    
-.generic_left_list td.counter {
-    height: 22px !important;
-    line-height: 20px !important;
-}
-
-.generic_left_list td.menu {
-    height: 22px !important;
-    line-height: 20px !important;
-}
-    
-.generic_left_list td.menu div.icon {
-    height: 22px !important;
-    line-height: 20px !important;
-}
-    
-.invisible_space {
-    margin-top: 3px !important;
+    padding-bottom: 0px !important;
 }
 
 /* uncomment the following to add gray lines between each task */
