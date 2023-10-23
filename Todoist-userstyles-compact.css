@@ -47,7 +47,7 @@ ul.items.day_list.ul_today.is_filtered {
     margin-bottom: 4px !important;
 }
 
-ul.section_list>li {
+.section_list>li {
 	padding-bottom: 0px !important;
     margin-bottom: 0px !important;
 }
@@ -55,10 +55,12 @@ ul.section_list>li {
 .view_header {
     margin-bottom: 0px !important;
     border-top: 10px #555555 !important;
+    padding-top: 20px !important;
 }
 
 .section {
     margin-bottom: 4px !important;
+    margin-top: 4px !important;
 }    
 
 .section h2, .section h2 a {
@@ -79,6 +81,9 @@ div.project_editor_instance {
     margin-bottom: 0px !important;
 }
 
+button {
+    background-color: #333 !important;
+}
 /* less padding between projects in left menu */
     
 #projects_list div {
