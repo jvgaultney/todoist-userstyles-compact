@@ -81,7 +81,7 @@ div.project_editor_instance {
     margin-bottom: 0px !important;
 }
 
-button {
+.app-sidebar-container div nav div button {
     background-color: #333 !important;
 }
 /* less padding between projects in left menu */
